@@ -1,0 +1,239 @@
+# ==========================================
+# Java
+# ==========================================
+
+*.class
+*.log
+*.ctxt
+*.jar
+*.war
+*.ear
+
+# ==========================================
+# Maven
+# ==========================================
+
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+.flattened-pom.xml
+
+# ==========================================
+# Gradle (if used)
+# ==========================================
+
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ==========================================
+# IntelliJ IDEA
+# ==========================================
+
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# IntelliJ generated files
+out/
+
+# ==========================================
+# VS Code
+# ==========================================
+
+.vscode/
+*.code-workspace
+
+# ==========================================
+# Eclipse
+# ==========================================
+
+.classpath
+.project
+.settings/
+.factorypath
+.springBeans
+.sts4-cache/
+
+# ==========================================
+# NetBeans
+# ==========================================
+
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# ==========================================
+# Spring Boot
+# ==========================================
+
+.springBeans
+
+# ==========================================
+# Environment / Secrets
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+# Application configuration containing secrets
+application-local.properties
+application-local.yml
+application-dev.properties
+application-dev.yml
+application-prod.properties
+application-prod.yml
+
+# Keep example configuration
+!application-example.properties
+!application-example.yml
+
+# ==========================================
+# OS generated files
+# ==========================================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==========================================
+# Temporary files
+# ==========================================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*~
+*.orig
+
+# ==========================================
+# Test / Coverage
+# ==========================================
+
+.coverage
+*.exec
+*.gcda
+*.gcno
+*.lcov
+
+# JaCoCo
+jacoco/
+*.jacoco
+jacoco.exec
+
+# ==========================================
+# Logs
+# ==========================================
+
+logs/
+*.log
+log/
+*.log.*
+
+# ==========================================
+# Docker
+# ==========================================
+
+docker-compose.override.yml
+docker-compose.local.yml
+
+# Docker environment files
+docker/.env
+docker/.env.*
+
+# ==========================================
+# Database
+# ==========================================
+
+*.db
+*.sqlite
+*.sqlite3
+
+# PostgreSQL local files
+postgres-data/
+pgdata/
+
+# ==========================================
+# Generated files
+# ==========================================
+
+generated/
+generated-sources/
+generated-test-sources/
+
+# ==========================================
+# Node (if frontend is added later)
+# ==========================================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+.next/
+out/
+dist/
+coverage/
+
+# ==========================================
+# Build / IDE caches
+# ==========================================
+
+.cache/
+.tmp/
+temp/
+
+# ==========================================
+# Kubernetes
+# ==========================================
+
+# Local Kubernetes secrets
+k8s/secrets/
+kubernetes/secrets/
+
+# ==========================================
+# Credentials / Certificates
+# ==========================================
+
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+*.keystore
+
+# ==========================================
+# Local configuration
+# ==========================================
+
+config/local/
+config/secrets/
+
+# ==========================================
+# Backup files
+# ==========================================
+
+*.backup
+*.old
+*.orig
+
+# ==========================================
+# OS / IDE metadata
+# ==========================================
+
+.idea/httpRequests/
+.idea/dataSources/
+.idea/dataSources.local.xml
